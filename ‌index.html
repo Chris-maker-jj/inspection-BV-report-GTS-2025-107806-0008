@@ -20,7 +20,14 @@
         }
         h1 { 
             color: #2c3e50; 
-            margin-bottom: 20px;
+            margin-bottom: 10px;
+        }
+        iframe { 
+            width: 100%; 
+            height: 800px; 
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-top: 20px;
         }
         .download-btn {
             display: inline-block;
@@ -29,24 +36,22 @@
             padding: 15px 30px;
             text-decoration: none;
             border-radius: 5px;
-            font-size: 18px;
-            margin-top: 20px;
+            margin: 20px;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>GTS 2025 107806 0008</h1>
-        <p style="color: #666; font-size: 18px;">检验报告 - 船用碰垫检验</p>
-        <p style="color: #888; margin: 30px 0;">PDF预览在当前浏览器中可能受限</p>
-        <a href="https://chris-maker-jj.github.io/inspection-BV-report-GTS-2025-107806-0008/GTS%202025%20107806%200008.pdf" 
-           class="download-btn" 
-           download="GTS 2025 107806 0008.pdf">
+        <p style="color: #666;">检验报告 - 船用碰垫检验</p>
+        
+        <!-- 使用重命名后的PDF -->
+        <iframe src="GTS-2025-107806-0008.pdf"></iframe>
+        
+        <!-- 下载链接 -->
+        <a href="GTS-2025-107806-0008.pdf" download class="download-btn">
             📥 下载检验报告PDF
         </a>
-        <p style="color: #999; margin-top: 20px; font-size: 14px;">
-            点击上方按钮下载完整的检验报告文档
-        </p>
     </div>
 </body>
 </html>
